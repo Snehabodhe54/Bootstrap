@@ -1,56 +1,60 @@
 .container {
-    text-align: center;
-     border: 2px solid rgb(227, 212, 212);
-   }
-   .header {
-     color: rgb(130, 116, 134);
-     text-align: center;
-   }
-   .navigation{
-     min-height: 50px;
-     background-color: rgb(243, 241, 241);
-    
-   }
-   .icon{
-    margin: 10px;
-    text-align: right;
-    
-   }
-   i{
-    margin: 10px;
-    color: #000;
-   }
-   
-   .img1{
-    height: 300px;
-    width: 1300px;
-   }
-   .img2{
-    height: 250px;
-    width: 300px;
-   }
-   .customDiv {
-     margin-top: 20px;
-     min-height: 300px;
-     text-align: center;
-     font-size: large;
-   }
-   .sideBar {
-     margin: 10px;
-     min-height: 150px;
-     text-align: center;
-     background-color: aquamarine;
-   }
-   .mainContent {
-     margin: 10px;
-     min-height: 200px;
-     text-align: center;
-   }
-   
-   .nestedRow{
-     margin: 10px;
-     min-height: 80px;
-     text-align: center;
-     background-color: rgb(174, 233, 233);
-   }
-   
+  margin-top: 10px;
+  text-align: center;
+  border: 2px solid rgb(227, 212, 212);
+}
+.header {
+  color: rgb(130, 116, 134);
+  text-align: center;
+}
+.navigation {
+  min-height: 50px;
+  background-color: rgb(243, 241, 241);
+}
+.title {
+  margin: 10px;
+  font-size: 30px;
+}
+.home {
+  margin-top: 10px;
+  font-size: 15px;
+  
+}
+.home label{
+  margin: 10px 10px 0px 15px;
+}
+.icon {
+  margin: 10px;
+  text-align: right;
+}
+i {
+  margin: 10px;
+  color: #000;
+}
+.customDiv {
+  margin-top: 20px;
+  min-height: 300px;
+  text-align: center;
+  font-size: large;
+}
+.sideBar {
+  margin: 10px;
+  min-height: 150px;
+  text-align: center;
+  background-color: aquamarine;
+}
+.mainContent {
+  margin: 10px;
+  min-height: 200px;
+  text-align: center;
+}
+
+.nestedRow {
+  margin: 10px;
+  min-height: 80px;
+  text-align: center;
+  background-color: rgb(174, 233, 233);
+}
+.btn-group{
+  margin: 10px;
+}
