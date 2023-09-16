@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="customAssign.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-12 bg-primary">
+            <div class="customDiv">
+              <h2 class="text-light">Text</h2>
+              <hr class="text-bg-dark" />
+              <div class="text-capitalize lh-2">
+                <h4 class="text-start">capitalize</h4>
+                Bootstrap is a free, open source and most popular framework for
+                HTML, CSS, JavaScript. It provides set of pre-defined HTML, CSS,
+                JavaScript. make it faster and eaiser for Developers to create
+                responsive web application.
+              </div>
+              <div class="text-lowercase fs-5 lh-1">
+                <h4 class="text-lg-center">lowerCase</h4>
+                JS Open source scripting language. It is a light weight & allows
+                client side script to interact with user. It is interpreted
+                programming language with Object oriented capabilities
+              </div>
+              <div class="text-uppercase fs-6">
+                <h4 class="text-center text-decoration-underline">upperCase</h4>
+
+                CSS is like the decorator of a web page. It's used to control
+                the appearance and layout of HTML elements.
+              </div>
+              <div class="badge bg-warning text-wrap" style="width: 20rem">
+                HTML is like the blueprint of a web page. It uses to define the
+                structure and content of a web page.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-3 bg-success">
+            <div class="customDiv">
+              <h2 class="text-info">Pagination</h2>
+              <hr class="text-bg-dark" />
+              <ul class="pagination justify-content-center">
+                <li class="page-item">
+                  <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#">Next</a>
+                </li>
+              </ul>
+
+              <ul class="pagination justify-content-start">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="pagination justify-content-end">
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-3 bg-danger">
+            <div class="customDiv">
+              <h2 class="text-warning">Dropdown</h2>
+              <hr class="text-bg-dark" />
+
+              <div class="dropdown">
+                <a
+                  class="btn btn-secondary dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown link
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+
+                <!-- Large button groups (default and split) -->
+                <div class="btn-group m-3">
+                  <button
+                    class="btn btn-warning btn-lg dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Large button
+                  </button>
+                  <ul class="dropdown-menu">
+                    ...
+                  </ul>
+                </div>
+                <div class="btn-group m-5">
+                  <button
+                    class="btn btn-success btn-lg float-end"
+                    type="button"
+                  >
+                    Large split button
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    ...
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 text-bg-secondary">
+            <div class="customDiv">
+              <h2 class="text-white-50">Modal</h2>
+              <hr class="text-bg-dark" />
+
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Launch demo modal
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog float-">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        Empty
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">...</div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        Save changes
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary m-5"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                Launch static backdrop modal
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="staticBackdrop"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                tabindex="-1"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5 text-dark text-center" id="staticBackdropLabel">
+                        Modal title
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body text-dark">
+                      React is an open-source JavaScript library used for
+                      building user interfaces and web applications. It was
+                      developed by Facebook and is widely used in the web
+                      development community. React is known for its declarative
+                      and component-based approach to building UIs, which makes
+                      it easier to manage and update complex user interfaces
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button type="button" class="btn btn-primary">
+                        Understood
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 bg-warning">
+            <h2 class="text-danger">
+              Spinners
+              <hr />
+            </h2>
+
+            <div class="spinner-border" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <br />
+            <div class="spinner-border text-primary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-border text-secondary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-border text-success" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-border text-danger" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-border text-info" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-border text-light" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-border text-dark" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <br />
+            <div class="spinner-grow text-primary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-grow text-secondary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-grow text-success" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-grow text-danger" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-grow text-info" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-grow text-light" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <div class="spinner-grow text-dark" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+
+            <br />
+            <div
+              class="spinner-border text-light text-center"
+              style="width: 3rem; height: 3rem"
+              role="status"
+            >
+              <span class="visually-hidden">Loading...</span>
+            </div>
+
+            <br />
+            <button class="btn btn-primary" type="button" disabled>
+              <span
+                class="spinner-border spinner-border-sm"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden" role="status">Loading...</span>
+            </button>
+            <button class="btn btn-primary" type="button" disabled>
+              <span
+                class="spinner-border spinner-border-sm"
+                aria-hidden="true"
+              ></span>
+              <span role="status">Loading...</span>
+            </button>
+
+            <br />
+            <div
+              class="spinner-grow text-info float-end"
+              style="width: 3rem; height: 3rem"
+              role="status"
+            >
+              <span class="visually-hidden">Loading...</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
